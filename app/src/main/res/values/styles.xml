@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FullScreenDialog" parent="Theme.AppCompat.DialogWhenLarge">
+        <item name="android:statusBarColor">#D9000000</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">#D9000000</item>
+        <item name="android:windowAnimationStyle">@style/Animation.Design.BottomSheetDialog</item>
+    </style>
+
+</resources>
