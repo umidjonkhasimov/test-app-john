@@ -13,7 +13,7 @@ class MainMenuActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main_menu)
 
         findViewById<View>(R.id.startButton).setOnClickListener {
-            startActivity(Intent(this@MainMenuActivity, GameActivity::class.java))
+            startActivity(Intent(this, GameActivity::class.java))
         }
 
         findViewById<View>(R.id.exitButton).setOnClickListener { finish() }
